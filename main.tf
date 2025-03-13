@@ -8,7 +8,7 @@ resource "aws_instance" "my_ec2" {
   key_name      = "New-ec2"  # Replace with your AWS key pair
 
   tags = {
-    Name = "Terraform-GitHub-EC2"
+    Name = "Terraform_Ec2"
   }
 }
 
